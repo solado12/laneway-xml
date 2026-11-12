@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE college SYSTEM "college.dtd">
+
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<college>
+
+  <trainers>
+    <trainer>
+      <name>John Smith</name>
+      <location>Melbourne</location>
+    </trainer>
+  </trainers>
+
+  <students>
+    <student>
+      <name>Joao Gabriel</name>
+      <courseName>Diploma of Information Technology</courseName>
+      <location>Melbourne</location>
+    </student>
+  </students>
+
+  <courses>
+    <course>
+      <name>Diploma of Information Technology</name>
+      <code>ICT50120</code>
+      <duration>2 Years</duration>
+    </course>
+  </courses>
+
+</college>

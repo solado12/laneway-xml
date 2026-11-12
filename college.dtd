@@ -1,0 +1,16 @@
+<!ELEMENT college (trainers, students, courses)>
+
+<!ELEMENT trainers (trainer+)>
+<!ELEMENT trainer (name, location)>
+
+<!ELEMENT students (student+)>
+<!ELEMENT student (name, courseName, location)>
+
+<!ELEMENT courses (course+)>
+<!ELEMENT course (name, code, duration)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT courseName (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>

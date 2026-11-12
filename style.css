@@ -1,0 +1,49 @@
+college {
+  display: block;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+trainers,
+students,
+courses {
+  display: block;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+trainer,
+student,
+course {
+  display: block;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+name,
+location,
+courseName,
+code,
+duration {
+  display: block;
+  margin: 8px 0;
+}
+
+name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+courseName {
+  color: #0066cc;
+}
+
+location,
+code,
+duration {
+  color: #555;
+}
